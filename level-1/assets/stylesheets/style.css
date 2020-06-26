@@ -88,7 +88,7 @@ header {
 	color: white;
 	text-transform: uppercase;
 }
-.list-items a:hover {
+.active a {
 	color:#37B366;
 }
 /* main */

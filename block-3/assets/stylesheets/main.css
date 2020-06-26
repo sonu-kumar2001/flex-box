@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* general */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+/* flex for header and footer */
+.box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list {
+	display: flex;
+}
+/* header */
+header {
+	background-color: #222946;
+}
+.logo {
+	height: 50px;
+	width: 140px;
+}
+.list-items {
+	margin-right: 15px;
+}
+.list-items a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.list-items a:hover {
+	color:#37B366;
+}
+/* main */
+.first-sec {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.col-2 img {
+    width: 100%;
+    height: 400px;
+}
+.col-1 {
+    width: 45%;
+}
+.col-2 {
+    width: 45%;
+}
+/* gallery */
+.heading {
+    text-align: center;
+}
+.row-1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+}
+.row-1 img {
+    width: 400px;
+    height: 350px;
+}
+/* footer */
+footer {
+	background-color: #222946;
+}
+small {
+	color: white;
+}
+li i {
+	font-size: 30px;
+	color: white;
+	margin-right: 20px;
+}
