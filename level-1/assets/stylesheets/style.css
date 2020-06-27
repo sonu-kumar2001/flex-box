@@ -102,7 +102,7 @@ header {
 }
 .row {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	height: 600px;
     align-content: space-between;
